@@ -9,8 +9,8 @@ def sumDigits(x):
     return res
 
 
-#a = input('Enter number: ')
-#print(sumDigits(a))
+a = input('Enter number: ')
+print(sumDigits(a))
 
 # Задайте список из n чисел последовательности (1 + 1/n)**n,
 # выведеите его на экран, а так же сумму элементов списка.
@@ -19,8 +19,8 @@ def sumDigits(x):
 def second_wondefrul_limit(n):
     return [round((1+1/i)**i, 3) for i in range(1,n+1)]
 
-#b = int(input('Enter number: '))
-#print(second_wondefrul_limit(b), sum(second_wondefrul_limit(b)))
+b = int(input('Enter number: '))
+print(second_wondefrul_limit(b), sum(second_wondefrul_limit(b)))
 
 # Реализуйте алгоритм перемешивания списка. НЕ ИСПОЛЬЗОВАТЬ ВСТРОЕННЫЕ БИБЛИОТЕКИ SHUFFLE
 
