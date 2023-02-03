@@ -8,7 +8,7 @@ queue = randint(1, 3)
 print(f'Now the turn is {"HUMAN" if queue==0 else "BOT"}')
 while s > 0:
     if queue == 0:
-        a = int(input("HUMAN, how math do you take?: "))
+        a = int(input("HUMAN, you can take no more than 28 candies, how math do you take?: "))
         print(f'HUMAN take {a} candies, balance is {s-a} candies')
         s = s-a
         queue = 1
@@ -27,7 +27,7 @@ queue = randint(1, 3)
 print(f'Now the turn is {"HUMAN" if queue==0 else "BOT"}')
 while s > 0:
     if queue == 0:
-        a = int(input("HUMAN, how math do you take?: "))
+        a = int(input("HUMAN, you can take no more than 28 candies, how math do you take ?: "))
         print(f'HUMAN take {a} candies, balance is {s-a} candies')
         s = s-a
         queue = 1
@@ -43,4 +43,3 @@ while s > 0:
         queue = 0
 print(f'Winner is {"HUMAN" if queue==1 else "BOT"}')
 
-# решение в процессе, пушшу время от времени
